@@ -51,7 +51,7 @@ By downloading this mod, you agree to the following terms:
 If you are interested in looking through the code, use the link above to look at the repository!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.bladecraft]] #optional
+[[dependencies.bc]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -63,7 +63,7 @@ If you are interested in looking through the code, use the link above to look at
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.bladecraft]]
+[[dependencies.bc]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
