@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RUBY_TAB)));
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SAPPHIRE_TAB)));
 
+    public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RUBY_TAB)));
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SAPPHIRE_TAB)));
+
     /**
      * Taking everything that is within the Deferred Register and adding it to the game through the event bus.
      *

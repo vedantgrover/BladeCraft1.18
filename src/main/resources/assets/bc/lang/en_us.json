@@ -1,9 +1,15 @@
 {
     "item.bc.ruby": "Ruby",
     "item.bc.sapphire": "Sapphire",
+    "item.bc.raw_ruby": "Raw Ruby",
+    "item.bc.raw_sapphire": "Raw Sapphire",
 
     "block.bc.ruby_ore_block": "Ruby Ore",
     "block.bc.sapphire_ore_block": "Sapphire Ore",
+    "block.bc.ruby_block": "Block of Ruby",
+    "block.bc.sapphire_block": "Block of Sapphire",
+    "block.bc.raw_ruby_block": "Block of Raw Ruby",
+    "block.bc.raw_sapphire_block": "Block of Raw Sapphire",
 
     "itemGroup.ruby_tab": "Ruby",
     "itemGroup.sapphire_tab": "Sapphire"
