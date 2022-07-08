@@ -19,4 +19,4 @@ By downloading this mod, you agree to the following terms:
  - You may show the mod in videos or screenshots which are shared online, as long as you link to this page in the description.
  - You may not redistribute the mod using your download link, or redistribute elements (any of the gems or properties of these gems) of the mod in any form without direct permission from me. (You can ask permission through the comments).
  - You may not claim ownership of any elements of the mod.
- - If you create a page discussing/reviewing this mod, please include my username, as well as a link to this page. You must also comply with rule 4.
+ - If you create a page discussing/reviewing this mod, please include my username, as well as a link to this page. You must also comply with the above rules.
