@@ -1,5 +1,6 @@
 package com.bladedurman.bladecraft;
 
+import com.bladedurman.bladecraft.block.ModBlocks;
 import com.bladedurman.bladecraft.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class BladeCraft {
         eventBus.addListener(this::setup);
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

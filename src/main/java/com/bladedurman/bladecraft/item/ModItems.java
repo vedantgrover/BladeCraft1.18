@@ -8,13 +8,23 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+/**
+ * Registering items into the game through the Deferred Register.
+ *
+ * @author Freyr
+ */
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BladeCraft.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BladeCraft.MOD_ID); // The Deferred Register. All added blocks and items are stored within here.
 
     // Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    /**
+     * Taking everything that is within the Deferred Register and adding it to the game through the event bus.
+     *
+     * @param eventBus Interacts with the game
+     */
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

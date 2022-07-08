@@ -1,4 +1,7 @@
 {
     "item.bc.ruby": "Ruby",
-    "item.bc.sapphire": "Sapphire"
+    "item.bc.sapphire": "Sapphire",
+
+    "block.bc.ruby_ore_block": "Ruby Ore",
+    "block.bc.sapphire_ore_block": "Sapphire Ore"
 }
