@@ -10,11 +10,7 @@ import net.minecraft.world.level.material.Material;
 
 public class SapphireOreBlock extends OreBlock {
     public SapphireOreBlock() {
-        super(BlockBehaviour.Properties.of(Material.STONE)
-                .strength(3.0F, 4.0F)
-                .sound(SoundType.STONE)
-                .requiresCorrectToolForDrops()
-        );
+        super(BlockBehaviour.Properties.of(Material.STONE).strength(3.0F, 4.0F).sound(SoundType.STONE).requiresCorrectToolForDrops());
     }
 
     @Override

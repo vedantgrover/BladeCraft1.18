@@ -3,5 +3,8 @@
     "item.bc.sapphire": "Sapphire",
 
     "block.bc.ruby_ore_block": "Ruby Ore",
-    "block.bc.sapphire_ore_block": "Sapphire Ore"
+    "block.bc.sapphire_ore_block": "Sapphire Ore",
+
+    "itemGroup.ruby_tab": "Ruby",
+    "itemGroup.sapphire_tab": "Sapphire"
 }
